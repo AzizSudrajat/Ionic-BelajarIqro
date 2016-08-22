@@ -60,22 +60,22 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         }
     })
 
-    .state('app.helaian1', {
-        url: '/helaian1',
+    .state('app.halaman1', {
+        url: '/halaman1',
         views: {
             'menuContent': {
-                templateUrl: 'templates/helaian1.html',
-                controller: 'Helaian1Ctrl'
+                templateUrl: 'templates/Halaman1.html',
+                controller: 'HalamanCtrl'
             }
         }
     })
 
-    .state('app.helaian2', {
-        url: '/helaian2',
+    .state('app.halaman2', {
+        url: '/halaman2',
         views: {
             'menuContent': {
-                templateUrl: 'templates/helaian2.html',
-                controller: 'Helaian2Ctrl'
+                templateUrl: 'templates/Halaman2.html',
+                controller: 'HalamanCtrl'
             }
         }
     });

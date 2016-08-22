@@ -58,6 +58,26 @@ app.config(function ($stateProvider, $urlRouterProvider) {
                 controller: 'BelajarIqroCtrl'
             }
         }
+    })
+
+    .state('app.halaman1', {
+        url: '/halaman1',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/Halaman1.html',
+                controller: 'HalamanCtrl'
+            }
+        }
+    })
+
+    .state('app.halaman2', {
+        url: '/halaman2',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/Halaman2.html',
+                controller: 'HalamanCtrl'
+            }
+        }
     });
 
     // if none of the above states are matched, use this as the fallback

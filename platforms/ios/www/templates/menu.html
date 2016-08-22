@@ -1,7 +1,7 @@
 ﻿
 <ion-side-menus enable-menu-with-back-views="false">
     <ion-side-menu-content>
-        <ion-nav-bar class="bar-assertive">
+        <ion-nav-bar class="bar-dark">
             <ion-nav-back-button class="no-text">
             </ion-nav-back-button>
             <ion-nav-buttons side="left">
@@ -20,22 +20,19 @@
         <ion-header-bar class="expanded">
             <img src="img/logo.png" class="avatar motion spin fade">
             <div class="menu-bottom">
-                Depok Carrer
+                <h2 class="text">Belajar Iqro</h2>
             </div>
         </ion-header-bar>
         <ion-content class="stable-bg has-expanded-header">
             <ion-list>
-                <ion-item nav-clear menu-close ui-sref="app.caripekerjaan">
-                    <i class="icon ion-search"></i> Cari Pekerjaan
-                </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.lokasiterdekat">
-                    Lokasi Terdekat
+                <ion-item nav-clear menu-close ui-sref="app.belajariqro">
+                    <i class="icon ion-music-note"></i> Belajar Iqro
                 </ion-item>
                 <ion-item nav-clear menu-close ui-sref="app.tentang">
-                    Tentang
+                    <i class="icon ion-information-circled"></i> Tentang
                 </ion-item>
                 <ion-item nav-clear ng-click="showConfirm()">
-                    keluar
+                    Keluar
                 </ion-item>
             </ion-list>
         </ion-content>
