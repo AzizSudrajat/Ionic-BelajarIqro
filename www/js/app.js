@@ -58,6 +58,26 @@ app.config(function ($stateProvider, $urlRouterProvider) {
                 controller: 'BelajarIqroCtrl'
             }
         }
+    })
+
+    .state('app.helaian1', {
+        url: '/helaian1',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/helaian1.html',
+                controller: 'Helaian1Ctrl'
+            }
+        }
+    })
+
+    .state('app.helaian2', {
+        url: '/helaian2',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/helaian2.html',
+                controller: 'Helaian2Ctrl'
+            }
+        }
     });
 
     // if none of the above states are matched, use this as the fallback

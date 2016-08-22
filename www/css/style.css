@@ -179,3 +179,8 @@ p {
 .a{
     height: 50px;
 }
+
+
+.right img {
+  float: right;
+}

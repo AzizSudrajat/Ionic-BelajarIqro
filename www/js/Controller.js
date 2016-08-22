@@ -22,4 +22,16 @@ app.controller('BelajarIqroCtrl', function ($scope) {
 
 app.controller('TentangCtrl', function ($scope) {
 
+})
+
+app.controller('Helaian1Ctrl', function ($scope) {
+
+})
+
+app.controller('Helaian2Ctrl', function ($scope) {
+
+})
+
+app.controller('Helaian31Ctrl', function ($scope) {
+
 });
