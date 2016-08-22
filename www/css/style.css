@@ -184,3 +184,8 @@ p {
 .right img {
   float: right;
 }
+
+.bawah img {
+  width: 60px;
+  height: 78px;
+}
