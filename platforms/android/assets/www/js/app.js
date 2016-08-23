@@ -16,18 +16,18 @@ app.run(function ($ionicPlatform,$ionicPopup) {
             StatusBar.styleDefault();
         }
     });
-    $ionicPlatform.registerBackButtonAction(function(event) {
-    if (true) { // your check here
-      $ionicPopup.confirm({
-        title: 'Keluar',
-        template: 'Anda yakin ingin menutup aplikasi ini ?'
-      }).then(function(res) {
-        if (res) {
-          ionic.Platform.exitApp();
-        }
-      })
-    }
-  }, 100);
+  //   $ionicPlatform.registerBackButtonAction(function(event) {
+  //   if (true) { // your check here
+  //     $ionicPopup.confirm({
+  //       title: 'Keluar',
+  //       template: 'Anda yakin ingin menutup aplikasi ini ?'
+  //     }).then(function(res) {
+  //       if (res) {
+  //         ionic.Platform.exitApp();
+  //       }
+  //     })
+  //   }
+  // }, 100);
 })
 
 app.config(function ($stateProvider, $urlRouterProvider) {
