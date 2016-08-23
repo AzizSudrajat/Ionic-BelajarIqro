@@ -124,6 +124,46 @@ $scope.play10 = function () {
    $cordovaNativeAudio.play('10');
 };
 
+$scope.play11 = function () {
+   $cordovaNativeAudio.play('11');
+};
+
+$scope.play12 = function () {
+   $cordovaNativeAudio.play('12');
+};
+
+$scope.play13 = function () {
+   $cordovaNativeAudio.play('13');
+};
+
+$scope.play14 = function () {
+   $cordovaNativeAudio.play('14');
+};
+
+$scope.play15 = function () {
+   $cordovaNativeAudio.play('15');
+};
+
+$scope.play16 = function () {
+   $cordovaNativeAudio.play('16');
+};
+
+$scope.play17 = function () {
+   $cordovaNativeAudio.play('17');
+};
+
+$scope.play18 = function () {
+   $cordovaNativeAudio.play('18');
+};
+
+$scope.play19 = function () {
+   $cordovaNativeAudio.play('19');
+};
+
+$scope.play20 = function () {
+   $cordovaNativeAudio.play('20');
+};
+
 $scope.play21 = function () {
    $cordovaNativeAudio.play('21');
 };
