@@ -1,4 +1,4 @@
-app.controller('MenuCtrl', function($scope) {
+app.controller('MenuCtrl', function($scope, $ionicPopup) {
   $scope.showConfirm = function() {
         var confirmPopup = $ionicPopup.confirm({
            title: 'Keluar',
