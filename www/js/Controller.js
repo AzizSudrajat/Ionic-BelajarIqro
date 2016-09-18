@@ -17,18 +17,7 @@ app.controller('MenuCtrl', function($scope) {
 })
 
 app.controller('BelajarIqroCtrl', function ($scope, $ionicPopup, $ionicPlatform) {
-//   $ionicPlatform.registerBackButtonAction(function(event) {
-//   if (true) { // your check here
-//     $ionicPopup.confirm({
-//       title: 'Keluar',
-//       template: 'Anda yakin ingin menutup aplikasi ini ?'
-//     }).then(function(res) {
-//       if (res) {
-//         ionic.Platform.exitApp();
-//       }
-//     })
-//   }
-// }, 100)
+
 })
 
 app.controller('HijaiyahCtrl', function ($scope) {
@@ -36,18 +25,7 @@ app.controller('HijaiyahCtrl', function ($scope) {
 })
 
 app.controller('TentangCtrl', function ($scope, $ionicPopup, $ionicPlatform) {
-//   $ionicPlatform.registerBackButtonAction(function(event) {
-//   if (true) { // your check here
-//     $ionicPopup.confirm({
-//       title: 'Keluar',
-//       template: 'Anda yakin ingin menutup aplikasi ini ?'
-//     }).then(function(res) {
-//       if (res) {
-//         ionic.Platform.exitApp();
-//       }
-//     })
-//   }
-// }, 100)
+
 })
 
 app.controller('HalamanCtrl', function ($scope, $ionicPlatform, $cordovaNativeAudio) {
