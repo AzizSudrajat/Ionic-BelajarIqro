@@ -25,14 +25,17 @@
         </ion-header-bar>
         <ion-content class="stable-bg has-expanded-header">
             <ion-list>
-                <ion-item nav-clear menu-close ui-sref="app.belajariqro">
+              <ion-item class="item-icon-left" nav-clear menu-close ui-sref="app.hijaiyah">
+                    <i class="icon ion-android-star-half"></i> Cara Membaca Hijaiyah
+                </ion-item>
+                <ion-item class="item-icon-left" nav-clear menu-close ui-sref="app.belajariqro">
                     <i class="icon ion-music-note"></i> Belajar Iqro
                 </ion-item>
-                <ion-item nav-clear menu-close ui-sref="app.tentang">
+                <ion-item class="item-icon-left" nav-clear menu-close ui-sref="app.tentang">
                     <i class="icon ion-information-circled"></i> Tentang
                 </ion-item>
-                <ion-item nav-clear ng-click="showConfirm()">
-                    Keluar
+                <ion-item class="item-icon-left" nav-clear ng-click="showConfirm()">
+                    <i class="icon ion-close-circled"></i> Keluar
                 </ion-item>
             </ion-list>
         </ion-content>

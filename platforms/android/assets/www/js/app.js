@@ -50,6 +50,16 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         }
     })
 
+    .state('app.hijaiyah', {
+        url: '/hijaiyah',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/hijaiyah.html',
+                controller: 'HijaiyahCtrl'
+            }
+        }
+    })
+
     .state('app.belajariqro', {
         url: '/belajariqro',
         views: {

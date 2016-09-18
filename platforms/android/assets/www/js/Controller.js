@@ -31,6 +31,10 @@ app.controller('BelajarIqroCtrl', function ($scope, $ionicPopup, $ionicPlatform)
 // }, 100)
 })
 
+app.controller('HijaiyahCtrl', function ($scope) {
+
+})
+
 app.controller('TentangCtrl', function ($scope, $ionicPopup, $ionicPlatform) {
 //   $ionicPlatform.registerBackButtonAction(function(event) {
 //   if (true) { // your check here
